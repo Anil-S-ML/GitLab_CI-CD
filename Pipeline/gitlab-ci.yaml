@@ -1,6 +1,5 @@
 
 test:
-  stage: test
   before_script:
     - echo "Running before_script for test job..."
   script:
@@ -10,14 +9,10 @@ test:
 
 
 build_image:
-  stage: build
   script:
     - echo "Building Docker image..."
-    - docker build -t myapp:latest .
-
 
 push_image:
-  stage: deploy
   script:
     - echo "Logging into Docker registry..."
     - echo "Pushing Docker image..."
