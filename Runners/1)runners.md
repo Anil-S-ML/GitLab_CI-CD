@@ -19,6 +19,9 @@
 - **Self-managed:** You host runners (hosted on your infra/VM/k8s)
 
 ![Runner Types](./images/Screenshot%202025-12-09%20142723.png)
+
+-------------------------
+![runner](./images/Screenshot%202025-12-09%20142741.png)
 ---
 
 ## 2) How Runners Execute a Job — Execution Flow (5 Steps)
