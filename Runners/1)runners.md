@@ -18,6 +18,8 @@
 ### Self-managed vs GitLab.com Shared Runners
 - **Self-managed:** You host runners (hosted on your infra/VM/k8s)
 
+- check more on [GitLab Docs](https://docs.gitlab.com/ci/runners/)
+
 ![Runner Types](./images/Screenshot%202025-12-09%20142723.png)
 
 -------------------------
