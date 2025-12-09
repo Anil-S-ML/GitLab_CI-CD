@@ -18,7 +18,7 @@
 ### Self-managed vs GitLab.com Shared Runners
 - **Self-managed:** You host runners (hosted on your infra/VM/k8s)
 
-[!runner](./images/Screenshot%202025-12-09%20142723.png)
+![Runner Types](./images/Screenshot%202025-12-09%20142723.png)
 ---
 
 ## 2) How Runners Execute a Job — Execution Flow (5 Steps)
@@ -44,7 +44,7 @@ Runner updates job status in GitLab (visible in the pipeline/job UI).
 
 You can set a global `image:` at the top of `.gitlab-ci.yml`:
 
-[!image](./images/image.png)
+![Runner Types](./images/Screenshot%202025-12-09%20142723.png)
 
 - in the above example we are using node:17-alpine as the default image for all jobs
 
