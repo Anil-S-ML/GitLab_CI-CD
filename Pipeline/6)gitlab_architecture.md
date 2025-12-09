@@ -106,5 +106,3 @@ On GitLab.com, shared runners are available to all users.
 | **GitLab.com SaaS** | GitLab provides runners for you |
 
 ---
-
-![alt text](image.png)
