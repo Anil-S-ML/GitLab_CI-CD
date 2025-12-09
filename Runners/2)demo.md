@@ -217,5 +217,3 @@ Self-managed runners provide complete control over:
 | **Cost** | Free (your machine) | Pay for EC2 usage |
 | **Access** | Local resources | Cloud services (S3, RDS) |
 | **Use Case** | Development, testing | Production builds, deployment |
-
-This demo showcases the power and flexibility of GitLab's distributed CI/CD architecture with self-managed runners!
