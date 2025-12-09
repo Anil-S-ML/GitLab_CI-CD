@@ -44,7 +44,7 @@ Runner updates job status in GitLab (visible in the pipeline/job UI).
 
 You can set a global `image:` at the top of `.gitlab-ci.yml`:
 
-![Runner Types](./images/Screenshot%202025-12-09%20142723.png)
+![Runner Types](./images/image.png)
 
 - in the above example we are using node:17-alpine as the default image for all jobs
 
