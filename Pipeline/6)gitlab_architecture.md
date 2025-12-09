@@ -76,6 +76,8 @@ On GitLab.com, shared runners are available to all users.
 
 ## Architecture Diagram
 
+![GitLab Architecture](./images/Screenshot%202025-12-09%20124319.png)
+
 ```
             ┌────────────────────────┐
             │      GitLab Server     │

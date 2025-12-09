@@ -6,7 +6,9 @@
 
 But Runner alone cannot execute jobs → it needs an **executor**.
 
-**Executor** = the component that actually runs the job commands.
+**Executor** = the component that actually runs the job commands
+
+![GitLab Architecture](./images/Screenshot%202025-12-09%20124319.png)
 
 ---
 
@@ -25,15 +27,8 @@ Commands run directly on the operating system (host machine)
 - Jobs share the same OS → no isolation
 - Leads to tool conflicts, version conflicts, and higher maintenance
 
-![alt text](<Screenshot 2025-12-09 124319.png>)
 
-----------------------------------------------
-
-![alt text](<Screenshot 2025-12-09 124746.png>)
-
------------------------------------------------
-
-![alt text](<Screenshot 2025-12-09 124755.png>)
+![Runner Configuration](./images/Screenshot%202025-12-09%20124755.png)
 
 ---
 
@@ -90,6 +85,8 @@ Special version of Docker executor.
 ---
 
 ## Which Executor to Choose?
+
+![Executor Comparison](./images/Screenshot%202025-12-09%20124746.png)
 
 | Executor | Best For |
 |----------|----------|
@@ -155,3 +152,4 @@ This is how you use multiple executors on one server.
 | **Multiple executors** | Register multiple runners on same server |
 
 ---
+
